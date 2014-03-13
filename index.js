@@ -3,8 +3,8 @@
  * Module dependencies.
  */
 
-var Emitter = require('emitter')
-  , dom     = require('dom')
+var Emitter = require('component-emitter')
+  , dom     = require('component-dom')
 
 /**
  * Expose `Menu`.

@@ -1,25 +1,17 @@
 {
-  "name": "menu-component",
+  "name": "component-menu",
   "description": "Menu component",
   "version": "0.1.2",
   "keywords": [
     "menu",
     "ui"
   ],
+  "styles": [
+    "menu.css"
+  ],
   "dependencies": {
-    "emitter-component": "*",
-    "jquery-component": "*"
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "component-dom": "git://github.com/npmcomponent/component-dom.git"
   },
-  "component": {
-    "styles": [
-      "menu.css"
-    ],
-    "scripts": {
-      "menu/index.js": "index.js"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/menu.git"
-  }
+  "license": "MIT"
 }
